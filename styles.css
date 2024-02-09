@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  font-family: system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.box {
+  width: 341px;
+  height: 74px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3.615px;
+  cursor: pointer;
+  transition: height 0.3s;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.heading {
+    display: flex; width: 341px; align-items: center; justify-content: space-between; font-size: 18px; font-weight: 500; margin-bottom: 5px;
+}
+
+.expanded {
+  height: 162px;
+  border-color: #007F61;
+  background-color: #F4FBF9;
+}
+
+.select-box {
+  display: none;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+table {
+  border-style: hidden;
+  border-collapse: collapse;
+}
+
+th {
+    font-weight: 500;
+    font-size: 9.942px;
+    text-align: left;
+    padding: 3px;
+
+}
+
+td {
+    padding: 3px;
+    font-size: 9px;
+}
+
+.firstRow{
+    vertical-align: bottom;
+    padding-bottom: 7px;
+}
+
+input[type="radio"] {
+  margin: 5px;
+  accent-color: #007F61;
+}
+
+#selectBox2 {
+  display: block;
+}
+
+.optionBox {
+    height: 26px;
+    font-size: 10.842px;
+    border-radius: 3px;
+}
+
+.pairClass {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pairPriceClass {
+    font-size: 14px; font-weight: 500;
+}

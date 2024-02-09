@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="heading">
+        <div style="width: 94px; color: #C8C8C8; opacity: 0.6;"><hr></div>
+        <div style="color: #007F61; "><div>Bundle & Save</div></div>
+        <div style="width: 94px;  color: #C8C8C8; opacity: 0.6;"><hr></div>
+    </div>
+
+  <div>
+    <div class="box" onclick="expandBox(1)">
+        <div style="padding: 14px;">
+            <div style="display: flex; align-items: end;">
+                <input type="radio" name="boxRadio" id="box1" style="align-self: center;">
+                <div style="margin-left: 12px; margin-right: 55px;">
+                    <div class="pairClass">1 Pair</div>
+                    <div class="pairPriceClass">DKK 195.00</div>
+                </div>
+                <div style=" align-self: center; margin-left: 80px;">
+                    <div style="font-size: 14.46px;">
+                        <div style="font-weight: 500;">50 % OFF</div>
+                    </div>
+        
+                </div>
+        
+            </div>
+            <div class="select-box" id="selectBox1">
+                <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                      </tr>
+                    </thead>
+                    <tbody >
+                      <tr>
+                        <td class="firstRow">#1</td>
+                        <td>
+                          <select  class="optionBox" style="width: 66px;">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select  class="optionBox" style="width: 73px;">
+                            <option value="">Colour</option>
+                            <option value="">Red</option>
+                            <option value="">Blue</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="firstRow">#2</td>
+                        <td>
+                            <select  class="optionBox" style="width: 66px;">
+                              <option value="">S</option>
+                              <option value="">M</option>
+                              <option value="">L</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select  class="optionBox" style="width: 73px;">
+                              <option value="">Colour</option>
+                              <option value="">Red</option>
+                              <option value="">Blue</option>
+                            </select>
+                          </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+        </div>
+      </div>
+    
+      <div class="box expanded" onclick="expandBox(2)">
+        <div style="padding: 14px;">
+            <div style="display: flex; align-items: end;">
+                <input type="radio" name="boxRadio" id="box2" checked style="align-self: center;">
+                <div style="margin-left: 12px; margin-right: 55px;">
+                    <div class="pairClass">2 Pair</div>
+                    <div class="pairPriceClass">DKK 345.00</div>
+                </div>
+                <div style="align-self: end; font-size: 9.942px; opacity: 0.3; text-decoration: line-through;">
+                    DKK 195.00
+                </div>
+                <div style=" align-self: flex-end; margin-left: 10px;">
+                    <div style="display: flex; flex-direction: column; align-items: end; font-size: 12.65px;">
+                        <div style="font-weight: 600; color: #007F61;">Most Popular</div>
+                        <div style="font-weight: 500;">40 % OFF</div>
+                    </div>
+        
+                </div>
+        
+            </div>
+            <div class="select-box" id="selectBox2">
+                <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="firstRow">#1</td>
+                        <td>
+                          <select  class="optionBox" style="width: 66px;">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select  class="optionBox" style="width: 73px;">
+                            <option value="">Colour</option>
+                            <option value="">Red</option>
+                            <option value="">Blue</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="firstRow">#2</td>
+                        <td>
+                            <select  class="optionBox" style="width: 66px;">
+                              <option value="">S</option>
+                              <option value="">M</option>
+                              <option value="">L</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select  class="optionBox" style="width: 73px;">
+                              <option value="">Colour</option>
+                              <option value="">Red</option>
+                              <option value="">Blue</option>
+                            </select>
+                          </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+        </div>
+      </div>
+    
+      <div class="box" onclick="expandBox(3)">
+        <div style="padding: 14px;">
+            <div style="display: flex; align-items: end;">
+                <input type="radio" name="boxRadio" id="box3" style="align-self: center;">
+                <div style="margin-left: 12px; margin-right: 55px;">
+                    <div class="pairClass">3 Pair</div>
+                    <div class="pairPriceClass">DKK 528.00</div>
+                </div>
+                <div style=" align-self: center; margin-left: 80px;">
+                    <div style="font-size: 14.46px;">
+                        <div style="font-weight: 500;">60 % OFF</div>
+                    </div>
+        
+                </div>
+        
+            </div>
+            <div class="select-box" id="selectBox3">
+                <table>
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Size</th>
+                        <th>Colour</th>
+                      </tr>
+                    </thead>
+                    <tbody >
+                      <tr>
+                        <td class="firstRow">#1</td>
+                        <td>
+                          <select class="optionBox" style="width: 66px;">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                          </select>
+                        </td>
+                        <td>
+                          <select class="optionBox" style="width: 73px;">
+                            <option value="">Colour</option>
+                            <option value="">Red</option>
+                            <option value="">Blue</option>
+                          </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="firstRow">#2</td>
+                        <td>
+                            <select class="optionBox" style="width: 66px;">
+                              <option value="">S</option>
+                              <option value="">M</option>
+                              <option value="">L</option>
+                            </select>
+                          </td>
+                          <td>
+                            <select class="optionBox" style="width: 73px;">
+                              <option value="">Colour</option>
+                              <option value="">Red</option>
+                              <option value="">Blue</option>
+                            </select>
+                          </td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+        </div>
+      </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; width: 341px; margin-top: 10px;">
+    <div style="color: #007F61; opacity: 0.6; font-size: 14px; font-weight: 500;">Free 2 Day Shipping</div>
+    <div style="font-size: 14px; ">Total : <span style="font-weight: 500;"> DKK 360.00</span></div>
+  </div>
+
+  <button style="display: flex; border-style: none; margin-top: 15px; background-color: #007F61; width: 341px; border-radius: 4px; height: 48px; justify-content: center; align-items: center; font-size: 16px; font-weight: 600; color: #FFF;">
+    + Add to Cart
+  </button>
+
+  <div style="width: 341px; display: flex; justify-content: end; margin-top: 7px;">
+    <div style="display: flex; align-items: center;">
+        <div style="font-size: 9px; font-weight: 300;">&copy; </div>
+        <div style="font-size: 12px; font-style: italic; padding-left: 2px;"> Powered by Pumper</div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="index.js">
+  </script>
+
+</body>
+</html>
